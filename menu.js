@@ -7,7 +7,7 @@ class Menu {
         let nombre_ingredientes = ['jamon', 'queso', 'cebolla', 'tomate', 'mayonesa', 'mostaza', 'pepinillos',
                                    'pollo', 'atun', 'pavo'];
         for (let i = 0; i < nombre_ingredientes.length; ++i) {
-            this.ingredientes.push(nombre_ingredientes[i]);
+            this.ingredientes.push(new Ingrediente(nombre_ingredientes[i]));
         }
     }
 
