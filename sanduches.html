@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="contenedor_ingrediente.js"></script>
+    <script src="pila.js"></script>
+    <script src="ingrediente.js"></script>
+    <script src="pan.js"></script>
+    <script src="sandwich.js"></script>
+    <script src="menu.js"></script>
+    <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <title>Paula sanduches</title>
+</head>
+<body>
+<h2>Bienvenido a Sanduches Paula</h2>
+
+<div>
+    Nuestros ingredientes son:
+    <div>
+        <ol id="lista_ingredientes"></ol>
+    </div>
+    <p><strong>ingredientes desea adicionar a tu sandwich, recuerda que puedes un máximo de siete:</strong></p>
+    <div id="ingredientes_a_escoger"></div>
+    <button id="armar_sanduche" onclick="Main.main.armar_sanduche()">Armar Sanduche</button>
+</div>
+
+<div id="resultado_sanduche">
+</div>
+
+</body>
+</html>
